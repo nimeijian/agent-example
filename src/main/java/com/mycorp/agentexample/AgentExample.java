@@ -7,7 +7,7 @@ public class AgentExample {
             process();
         }
 
-        Thread.sleep(100000000L);
+        Thread.sleep(Long.MAX_VALUE);
     }
 
     public static void process() {
